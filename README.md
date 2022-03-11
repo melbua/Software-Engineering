@@ -1,5 +1,6 @@
-# 소프트웨어공학 상부상조 팀입니다.
-Software Engineering Team Project
+# Software Engineering Team Project
+
+# 소프트웨어공학 (상부상조)팀 입니다.
 
 201810990 장현호
 
