@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DailyLook">
         <activity
+            android:name=".SavelookActivity"
+            android:exported="false" />
+        <activity
             android:name=".AddclothActivity"
             android:exported="false" />
         <activity
