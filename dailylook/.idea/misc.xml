@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kvx25/Desktop/Software-Engineering/dailylook/app/src/main/res/drawable/edittex.xml" value="0.26" />
+        <entry key="..\:/Users/kvx25/Desktop/Software-Engineering/dailylook/app/src/main/res/drawable/edittext_background.xml" value="0.26" />
+        <entry key="..\:/Users/kvx25/Desktop/Software-Engineering/dailylook/app/src/main/res/layout/activity_addcloth.xml" value="0.32142857142857145" />
+        <entry key="..\:/Users/kvx25/Desktop/Software-Engineering/dailylook/app/src/main/res/layout/activity_combination_list.xml" value="0.25" />
         <entry key="..\:/code/android/DailyLook/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.286" />
         <entry key="..\:/code/android/DailyLook/app/src/main/res/layout/activity_main.xml" value="0.2658514492753623" />
         <entry key="..\:/code/android/DailyLook/app/src/main/res/layout/mycloset.xml" value="0.3619791666666667" />
