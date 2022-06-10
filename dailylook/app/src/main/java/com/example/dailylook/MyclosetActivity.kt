@@ -28,6 +28,14 @@ class MyclosetActivity : AppCompatActivity() {
                         val intent = Intent(this, CombinationListActivity::class.java)
                         startActivity(intent)
                     }
+                    else if (which == 1) {
+                        val intent = Intent(this, MakelookActivity::class.java)
+                        startActivity(intent)
+                    }
+                    else if (which == 3) {
+                        val intent = Intent(this, SecessionActivity::class.java)
+                        startActivity(intent)
+                    }
                     //eles if 로 각 which마다 전환 구현
                 }
                 .show()
