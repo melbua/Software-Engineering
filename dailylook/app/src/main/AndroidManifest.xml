@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DailyLook">
         <activity
-            android:name=".MakelookActivity"
-            android:exported="false" />
-        <activity
             android:name=".SavelookActivity"
             android:exported="false" />
         <activity
@@ -22,13 +19,29 @@
             android:name=".CombinationListActivity"
             android:exported="false" />
         <activity
-            android:name=".MyclosetActivity"
-            android:exported="true">
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".FindIdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FindPwdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecessionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyclosetActivity"
+            android:exported="false">
         </activity>
     </application>
 
