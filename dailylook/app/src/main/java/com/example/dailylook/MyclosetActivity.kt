@@ -32,6 +32,7 @@ class MyclosetActivity : AppCompatActivity() {
                         val intent = Intent(this, CombinationListActivity::class.java)
                         startActivity(intent)
                     }
+
                     //eles if 로 각 which마다 전환 구현
                 }
                 .show()

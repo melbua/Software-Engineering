@@ -44,6 +44,14 @@
         android:textStyle="bold" />
 
     <Button
+        android:id="@+id/camera_btn"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="사진 첨부"
+        android:textStyle="bold" />
+    <Button
         android:id="@+id/picture_btn"
         android:layout_width="100dp"
         android:layout_height="48dp"
