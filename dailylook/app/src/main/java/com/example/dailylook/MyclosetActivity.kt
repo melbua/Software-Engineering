@@ -10,7 +10,6 @@ import com.example.dailylook.databinding.ActivityMyclosetBinding
 
 class MyclosetActivity : AppCompatActivity() {
 
-
     lateinit var binding: ActivityMyclosetBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,9 +17,6 @@ class MyclosetActivity : AppCompatActivity() {
 
         binding = ActivityMyclosetBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-
-
 
         binding.ibMenu.setOnClickListener{
             val items = arrayOf("룩 조회", "룩 추가", "로그아웃", "회원탈퇴")
@@ -32,7 +28,6 @@ class MyclosetActivity : AppCompatActivity() {
                         val intent = Intent(this, CombinationListActivity::class.java)
                         startActivity(intent)
                     }
-
                     //eles if 로 각 which마다 전환 구현
                 }
                 .show()
