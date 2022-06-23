@@ -7,4 +7,5 @@
     <string name="inputid">아이디를 입력하세요.</string>
     <string name="inputpwd">비밀번호를 입력하세요.</string>
     <string name="inputname">이름을 입력하세요.</string>
+    <string name="combinatied_look">Combinatied Look</string>
 </resources>

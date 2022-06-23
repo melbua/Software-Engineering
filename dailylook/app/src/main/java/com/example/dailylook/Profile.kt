@@ -1,5 +1,7 @@
 package com.example.dailylook
 
+import android.graphics.Bitmap
+import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 

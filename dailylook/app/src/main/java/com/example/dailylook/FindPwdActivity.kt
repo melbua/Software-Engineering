@@ -2,15 +2,15 @@ package com.example.dailylook
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.dailylook.databinding.ActivityFindpwdBinding
+import com.example.dailylook.databinding.ActivityFindPwdBinding
 
 class FindPwdActivity :AppCompatActivity(){
 
-    lateinit var binding : ActivityFindpwdBinding
+    lateinit var binding : ActivityFindPwdBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityFindpwdBinding.inflate(layoutInflater)
+        binding = ActivityFindPwdBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.findpwdFindpwdBtn.setOnClickListener {

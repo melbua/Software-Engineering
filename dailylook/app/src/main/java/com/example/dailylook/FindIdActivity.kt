@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.dailylook.databinding.ActivityFindidBinding
+import com.example.dailylook.databinding.ActivityFindIdBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
@@ -12,12 +12,12 @@ import kotlinx.coroutines.launch
 
 class FindIdActivity : AppCompatActivity(){
 
-    lateinit var binding : ActivityFindidBinding
+    lateinit var binding : ActivityFindIdBinding
     lateinit var db : ProfileDatabase
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityFindidBinding.inflate(layoutInflater)
+        binding = ActivityFindIdBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.findidFindidBtn.setOnClickListener {
